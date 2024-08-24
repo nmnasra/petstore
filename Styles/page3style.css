@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(173, 218, 254);
+  text-align: center;
+}
+
+header {
+  font-size: 17px;
+}
+
+.topnav {
+  position: sticky;
+  top: 0;
+  background-color: rgb(8, 137, 154);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav i {
+  float: left;
+  padding: 14px 16px;
+  color: rgb(173, 218, 254);
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: darkgray;
+}
+
+
+.topnav a.active {
+  background-color: rgb(9, 128, 144);
+  color: white;
+}
+
+header>section {
+  font-size: 45px;
+  color: white;
+  font-family: 'Kalnia Glaze';
+}
+
+img {
+  height: 300px;
+  width: auto;
+  padding: 50px;
+  border-radius: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
